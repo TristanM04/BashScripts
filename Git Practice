@@ -1,0 +1,11 @@
+# Initialize a variable to count the lines
+line_count=0
+
+# Read input from stdin line by line
+while read -r line; do
+  # Increment the line count for each line
+  ((line_count++))
+done
+
+# Print the total line count
+echo "Total lines: $line_count"
